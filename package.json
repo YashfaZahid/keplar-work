@@ -9,6 +9,7 @@
     "browserslist": "^4.6.3",
     "caniuse-lite": "^1.0.30000974",
     "connected-react-router": "git+https://github.com/supasate/connected-react-router.git",
+    "cross-env": "^7.0.3",
     "enzyme": "^3.10.0",
     "enzyme-adapter-utils": "^1.12.0",
     "gh-pages": "^2.0.1",
@@ -29,7 +30,7 @@
     "typescript": "^3.5.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "cross-env NODE_OPTIONS='--max-old-space-size=7168' react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

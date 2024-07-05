@@ -1,10 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import document from 'global/document';
 import {Provider} from 'react-redux';
-import {syncHistoryWithStore} from 'react-router-redux';
+// import {syncHistoryWithStore} from 'react-router-redux';
 import {render} from 'react-dom';
 import store from './store';
 import { BrowserRouter, Route } from 'react-router-dom';

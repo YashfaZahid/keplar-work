@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
 import KeplerGl from 'kepler.gl';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 // Kepler.gl actions
 import {addDataToMap} from 'kepler.gl/actions';
@@ -17,7 +17,7 @@ import mapConfigJson from './geodata/config-all.json';
 import  busRouteData from './geodata/Bus_Routes.js'
 import  ParkMapData from './geodata/Parks.js'
 import  busStopData from './geodata/Bus_Stops.js'
-const MAPBOX_TOKEN = process.env.REACT_APP_MAPBOX_TOKEN// eslint-disable-line
+const MAPBOX_TOKEN = "pk.eyJ1IjoidWNmLW1hcGJveCIsImEiOiJjbDBiYzlveHgwdnF0M2NtZzUzZWZuNWZ4In0.l9J8ptz3MKwaU9I4PtCcig"// eslint-disable-line
 
 class App extends Component {
   componentDidMount() {
